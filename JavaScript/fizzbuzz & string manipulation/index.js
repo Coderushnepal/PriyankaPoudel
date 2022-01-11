@@ -1,11 +1,12 @@
-// var num;
-// for(num=1; num<100; num++){
-//     if ((num%3)==0)
-//     // console.log("fizz")
-//     // else(console.log(num));
-//     document.write("<br>"+"fizz")
-//     else document.write("<br>" +num);
-// }
+var num;
+for(num=1; num<100; num++){
+    if ((num%3)==0)
+    // console.log("fizz")
+    // else(console.log(num));
+    document.write("<br>"+"fizz")
+    else if((num%5)==0) document.write("<br>" + "buzz");
+    else( document.write("<br>" +num));
+}
 
 // 1 answer
 
