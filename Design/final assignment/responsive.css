@@ -1,0 +1,175 @@
+@media screen and (max-width: 601px) {
+    ul li{
+        display: inline;
+        padding: 30px;
+    }
+    nav{
+        padding: 25px;
+        
+    }
+    .headerdiv{
+        margin: 10px 100px;
+    }
+    
+    .headerdiv__listdiv{
+       /* float: left;
+       padding-left:  300px;
+       font-size: 20px;
+       margin-top: -55px; */
+       display: none;
+    }
+    .home:hover{
+        color: grey;
+    }
+    
+    .signup{
+        float:left;
+        margin-left: 450px;
+        margin-top: -44px;
+        height: 45px;
+        width: 110px;
+        background-color:#0285E4;
+        border-radius: 20px;
+    }
+    .sign{
+        color: white;
+         margin: 13px;
+         text-align: center;
+}
+
+.fastestdiv{
+    height: 1700px;
+    width:fit-content;
+    background-color: #0285E4;
+
+}
+.fastest{
+    color: white;
+    text-align: center;
+    /* padding: 9px; */
+}
+.card1{
+    height: 600px;
+    width:400px;
+    background-color: #FFFFFF;
+    float: left;
+    border-radius: 7px;
+    margin-left:230px;
+}
+.card2{
+    height: 600px;
+    width:400px;
+    background-color: #FFFFFF;
+    float: left;
+    border-radius: 7px;
+    margin-left:230px;
+    /* margin-bottom: 70px; */
+}
+.forfree{
+    height: 50px;
+    width: 200px;
+    background-color:#0285E4;
+    border-radius: 20px;
+    margin-top: 150px;
+}
+.opentype{
+    height: 1250px;
+    width:fit-content;
+    background-color:#E1F1FD;
+
+}
+.open{
+    height:350px;
+    width: 600px;
+    /* background-color:crimson; */
+    margin-left:220px;
+    margin-top: 80px;
+    margin-right: 50px;
+    float:left;
+}
+.photo{
+    height:600px;
+    width: 400px;
+    float: left;
+    margin-top: 180px;
+    margin-left:190px;
+}
+.most{
+    margin-top: 30px;
+    font-size: 22px;
+}
+.enter{
+    height: 50px;
+    width: 320px;
+    background-color: white;
+    clear: both;
+    margin-top: 70px;
+    margin-right: 70px;
+    border-radius: 20px;
+    padding: 15px;
+}
+.subscribe{
+    height: 50px;
+    width: 320px;
+    background-color: #0285E4; 
+    margin-top: 30px;
+    border-radius: 20px;
+    padding: 15px;
+    text-align: center;
+}
+.workdiv{
+    height: 600px;
+    width: 100%;
+    background-color: #FFFFFF;
+    clear: both;
+}
+.work{
+    margin-left: 200px;
+    font-weight: bolder;
+    padding: 60px;
+    font-size: 39px;
+}
+.being{
+    margin-left: 200px;
+    color: grey;
+}
+.bigline{
+    margin-left: 170px;
+    margin-top: 80px;
+}
+.bigline1{
+    width: 240px;
+    height: 10px;
+    background-color:#0285E4;
+    float: left;
+}
+.bigline2{
+    width: 190px;
+    height: 10px;
+    background-color:#F3F5F8;
+    float: left;
+}
+
+.tryfor2{
+    height: 50px;
+    width: 200px;
+    background-color:#0285E4;
+    border-radius: 20px;
+    margin-left: 290px;
+    margin-top: 150px;
+    
+}
+.try{
+    color: white;
+    text-align: center;
+    padding: 14px;
+}
+.lastdiv{
+    height: 111px;
+    width: 100%;
+    background-color:#112D57 ;
+    display: none;
+}
+     
+
+}
