@@ -1,4 +1,4 @@
-@media screen and (max-width: 900px){
+@media screen and (min-width: 900px){
     ul li{
         display: inline;
         padding: 30px;
@@ -12,10 +12,10 @@
     }
     
     .headerdiv__listdiv{
-       /* float: left;
+       float: left;
        padding-left:  300px;
        font-size: 20px;
-       margin-top: -55px; */
+       margin-top: -55px;
        display: none;
     }
     .home:hover{
@@ -37,7 +37,7 @@
          text-align: center;
 }
 .fastestdiv{
-    height: 1000px;
+    height: 1100px;
     width: 100%;
     background-color: #0285E4;
 
@@ -48,18 +48,17 @@
     padding: 80px;
 }
 .card1{
-    height: 650px;
+    height: 700px;
     width:300px;
     background-color: #FFFFFF;
     float: left;
-    margin-right: 30px;
-    margin-left: 150px;
+    margin-left: 50px;
     border-radius: 7px;
     margin-bottom: 70px;
 }
 .card2{
-    height: 650px;
-    width:300px;
+    height: 700px;
+    width:280px;
     background-color: #FFFFFF;
     float: left;
     border-radius: 7px;
@@ -180,7 +179,7 @@
     width: 400px;
     float: left;
     margin-top: 80px;
-    margin-left: 230px;
+    margin-left: 250px;
 }
 .most{
     margin-top: 30px;
@@ -192,9 +191,10 @@
     clear: both;
     float: left;
     margin-top: 70px;
-    margin-right: 20px;
+    margin-right: 60px;
     border-radius: 20px;
     padding: 15px;
+    margin-left: -55px;
 }
 .subscribe{
     height: 50px;
@@ -207,7 +207,7 @@
     text-align: center;
 }
 .workdiv{
-    height: 500px;
+    height: 550px;
     width: 100%;
     background-color: #FFFFFF;
     clear: both;
@@ -216,13 +216,15 @@
     text-align: center;
     font-weight: bolder;
     padding: 60px;
+    margin-right: 200px;
 }
 .being{
     text-align: center;
     color: grey;
+    margin-right: 100px;
 }
 .bigline{
-    margin-left: 140px;
+    margin-left: 160px;
     margin-top: 80px;
 }
 .bigline1{
@@ -243,7 +245,7 @@
     width: 200px;
     background-color:#0285E4;
     border-radius: 20px;
-    margin-left: 350px;
+    margin-left: 370px;
     margin-top: 160px;
     
 }
@@ -256,6 +258,7 @@
     height: 111px;
     width: 100%;
     background-color:#112D57 ;
+    display: block;
 }
 .lastdiv1{
     float: left;
