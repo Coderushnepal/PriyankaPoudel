@@ -1,4 +1,4 @@
-@media screen and (max-width: 601px) {
+@media screen and (max-width: 600px) {
     ul li{
         display: inline;
         padding: 30px;
@@ -39,9 +39,8 @@
 
 .fastestdiv{
     height: 1700px;
-    width:fit-content;
+    width: min-content;
     background-color: #0285E4;
-
 }
 .fastest{
     color: white;
@@ -49,16 +48,16 @@
     /* padding: 9px; */
 }
 .card1{
-    height: 600px;
-    width:400px;
+    height: 550px;
+    width:500px;
     background-color: #FFFFFF;
     float: left;
     border-radius: 7px;
     margin-left:230px;
 }
 .card2{
-    height: 600px;
-    width:400px;
+    height: 550px;
+    width:500px;
     background-color: #FFFFFF;
     float: left;
     border-radius: 7px;

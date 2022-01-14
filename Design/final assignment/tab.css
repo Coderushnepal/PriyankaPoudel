@@ -1,92 +1,40 @@
-* {
-    box-sizing: border-box;
-    font-family: 'Open Sans', sans-serif;
-}
-.greypara{
-    color: grey;
-}
-html, body {
-    margin: 0;
-    padding: 0;
-}
-
-ul li{
-    display: inline;
-    padding: 30px;
-}
-nav{
-    padding: 25px;
+@media screen and (max-width: 900px){
+    ul li{
+        display: inline;
+        padding: 30px;
+    }
+    nav{
+        padding: 25px;
+        
+    }
+    .headerdiv{
+        margin: 10px 100px;
+    }
     
-}
-.headerdiv{
-    margin: 10px 100px;
-}
-
-.headerdiv__listdiv{
-   /* margin:auto; */
-   float: left;
-   padding-left:  300px;
-   font-size: 20px;
-   margin-top: -55px;
-}
-.home:hover{
-    color: grey;
-}
-
-.signup{
-    float: right;
-    margin-right: 60px;
-    margin-top: -44px;
-    height: 45px;
-    width: 110px;
-    background-color:#0285E4;
-    border-radius: 20px;
-}
-.sign{
-    color: white;
-     margin: 13px;
-     text-align: center;
-}
-.maincontainer{
-    height: 100vh;
-    width: 100%;
-    background-color: #FFFFFF;
-}
-.lightdiv{
-    height: 400px;
-    width: 800px;
-    /* background-color: hotpink; */
-    margin: auto;
-}
-.light{
-    text-align: center;
-    font-size: 38px;
-    font-weight:bold;
-}
-.smpara{
-    height: 90px;
-    width: 500px;
-    /* background-color: ivory; */
-    margin-left: 180px;
-}
-.gdiv{
-    margin-left: 10px;
-    margin-top: -15px;
-    color: grey;
-}
-.tryfor{
-    height: 50px;
-    width: 200px;
-    background-color:#0285E4;
-    border-radius: 20px;
-    margin-left: 300px;
-    margin-top: 70px;
+    .headerdiv__listdiv{
+       /* float: left;
+       padding-left:  300px;
+       font-size: 20px;
+       margin-top: -55px; */
+       display: none;
+    }
+    .home:hover{
+        color: grey;
+    }
     
-}
-.try{
-    color: white;
-    text-align: center;
-    padding: 14px;
+    .signup{
+        float:left;
+        margin-left: 450px;
+        margin-top: -44px;
+        height: 45px;
+        width: 110px;
+        background-color:#0285E4;
+        border-radius: 20px;
+    }
+    .sign{
+        color: white;
+         margin: 13px;
+         text-align: center;
 }
 .fastestdiv{
     height: 1000px;
@@ -100,57 +48,57 @@ nav{
     padding: 80px;
 }
 .card1{
-    height: 600px;
-    width:400px;
+    height: 650px;
+    width:300px;
     background-color: #FFFFFF;
     float: left;
-    margin-right: 80px;
-    margin-left: 300px;
+    margin-right: 30px;
+    margin-left: 150px;
     border-radius: 7px;
     margin-bottom: 70px;
 }
 .card2{
-    height: 600px;
-    width:400px;
+    height: 650px;
+    width:300px;
     background-color: #FFFFFF;
     float: left;
     border-radius: 7px;
     margin-bottom: 70px;
 }
 .pro{
-    padding: 37px;
+    padding: 30px;
 }
 .dwith{
     color: black;
     font-weight:bolder;
     font-size: 20px;
-    padding-left:40px;
+    padding-left:10px;
 }
 .doyou{
-    padding-left: 40px;
+    padding-left: 10px;
 }
 .facebook{
     color: grey;
     font-weight: 800;
-    padding: 20px;
+    padding: 28px;
 }
 .num{
     float: right;
     margin-top: -50px;
-    margin-right:30px;
+    margin-right:10px;
     font-weight: 800;
     color: grey;
 }
 .line1{
     clear: both;
     height: 10px;
-    width: 140px;
+    width: 160px;
     background-color: #2CD9C5;
     float:left;
-    margin-left: 40px;
+    margin-left: 10px;
 }
 .line2{
-    width: 170px;
+    width: 90px;
     height: 10px;
     background-color:#F3F5F8;
     float: left;
@@ -158,13 +106,13 @@ nav{
 .line12{
     clear: both;
     height: 10px;
-    width: 100px;
+    width: 80px;
     background-color: #2D99FF;
     float:left;
-    margin-left: 40px;
+    margin-left: 10px;
 }
 .line22{
-    width: 210px;
+    width: 170px;
     height: 10px;
     background-color:#F3F5F8;
     float: left;
@@ -172,14 +120,14 @@ nav{
 .line13{
     clear: both;
     height: 10px;
-    width: 210px;
+    width: 110px;
     background-color:#826AF9;
     float:left;
-    margin-left: 40px;
+    margin-left: 10px;
     
 }
 .line23{
-    width: 100px;
+    width: 140px;
     height: 10px;
     background-color:#F3F5F8;
     float: left;
@@ -190,17 +138,17 @@ nav{
     width: 40px;
     background-color:#FFE700;
     float:left;
-    margin-left: 40px;
+    margin-left: 10px;
     
 }
 .line24{
-    width: 275px;
+    width: 215px;
     height: 10px;
     background-color:#F3F5F8;
     float: left;
 }
 .oval{
-    padding: 120px;
+    padding: 80px;
 }
 .forfree{
     height: 40px;
@@ -210,19 +158,19 @@ nav{
     border-radius: 20px;
     text-align: center;
     padding: 10px;
-    margin-left: 630px;
+    margin-left: 320px;
 }
 .opentype{
-    height: 690px;
+    height: 1140px;
     width: 100%;
     background-color:#E1F1FD;
 
 }
 .open{
     height:350px;
-    width: 600px;
+    width: 700px;
     /* background-color:crimson; */
-    margin-left:200px;
+    margin-left:220px;
     margin-top: 80px;
     margin-right: 50px;
     float:left;
@@ -232,7 +180,7 @@ nav{
     width: 400px;
     float: left;
     margin-top: 80px;
-    margin-left: 50px;
+    margin-left: 230px;
 }
 .most{
     margin-top: 30px;
@@ -259,7 +207,7 @@ nav{
     text-align: center;
 }
 .workdiv{
-    height: 600px;
+    height: 500px;
     width: 100%;
     background-color: #FFFFFF;
     clear: both;
@@ -274,8 +222,8 @@ nav{
     color: grey;
 }
 .bigline{
-    margin-left: 420px;
-    margin-top: 150px;
+    margin-left: 140px;
+    margin-top: 80px;
 }
 .bigline1{
     width: 370px;
@@ -295,8 +243,8 @@ nav{
     width: 200px;
     background-color:#0285E4;
     border-radius: 20px;
-    margin-left: 630px;
-    margin-top: 250px;
+    margin-left: 350px;
+    margin-top: 160px;
     
 }
 .try{
@@ -316,20 +264,23 @@ nav{
 .lastdiv2{
     float: left;
     color: white;
-    margin-left: 300px;
+    margin-left: 90px;
     padding: 40px;   
 }
 .lastdiv3{
-    float: right;
+    float: left;
     color: white;
     padding: 40px;
+    margin-left: 50px;
 }
 .fab facebook{
  padding: 50px;
 }
 .fb,.tweet,.linked{
     float: left;
-    padding-left: 30px;
-    margin-left: 40px;
+    padding-left: 10px;
+    margin-left: 10px;
     font-size: 30px;
+}
+
 }
